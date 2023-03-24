@@ -1,0 +1,21 @@
+const a1="a1"
+typeof(a1)
+const a2=1999
+typeof(a2)
+const a3={}
+typeof(a3)
+const a4=[]
+typeof(a4)
+const a5=1999n
+typeof(a6)
+typeof(a5)
+let b1=[11,22]
+console.log(b1)
+var c1={name:"ram",job:"sw"}
+typeof(c1)
+function hello(){ console.log("aaaa")}
+hello()
+let f2= function hello(){ console.log("aaaa")}
+f2
+f2()
+export 
