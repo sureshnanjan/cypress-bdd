@@ -1,5 +1,4 @@
-import { Given, When, Then } from '../node_modules/cucumber';
-
+const { Given, When, Then }  = require('@cucumber/cucumber');
 
 //    Given Logged into the system
 //        Undefined. Implement with the following snippet:
