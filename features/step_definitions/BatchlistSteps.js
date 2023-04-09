@@ -7,8 +7,6 @@ Given('Logged into the system', function () {
   // Write code here that turns the phrase above into concrete actions
   console.log("Logged into the system");
 
-  Category cat = new Category();
-
   
   return 'pending';
 });
@@ -32,13 +30,3 @@ Then('we receive the list of batch', function () {
 
   return 'pending';
 });
-
-class Category {
-  constructor(id, name) {
-    this.id = id;
-    this.name = name;
-    this.print = function () {
-      console.log(`${this.name} - ${this.id}`);
-    };
-  }
-}
