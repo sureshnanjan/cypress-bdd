@@ -15,9 +15,7 @@ When("user credentials enterd", function () {
         this.credentials['username'] = uname;
         this.credentials['password'] = pwd;
         console.log("change");
-    } else {
-        console.log("no change");
-    }
+    } 
 
 });
 
