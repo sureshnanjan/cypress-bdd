@@ -7,10 +7,9 @@ Given("Application login page displayed", function () {
     this.credentials = { username: 0, password: "password" };
 });
 
-When("user credentials enterd", function () {
-
-    let uname = 10;
-    let pwd = "pwd";
+When('enter username {string} password {string}', function (name, pword) {
+    let uname =  parseInt(name);
+    let pwd = pword;
     if (this.credentials['username'] !== uname || !(this.credentials['password'] === pwd)) {
         this.credentials['username'] = uname;
         this.credentials['password'] = pwd;
