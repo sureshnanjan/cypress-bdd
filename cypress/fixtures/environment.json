@@ -1,5 +1,5 @@
 {
-  "stagingurl": "https://the-internet.herokuapp.com/",
+  "stagingurl": "suresh",
   "produrl": "https://the-internet.herokuapp.com/",
   "use": "staging",
   "auth_creds_uname": {"uname":"admin","pass":"admin"}

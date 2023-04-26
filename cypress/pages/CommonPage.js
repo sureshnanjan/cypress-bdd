@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-class CommonPage{
+module.exports = class CommonPage{
     // All locators used within the App for Identifying the page elements
     #github_url_identifier = 'a[alt="Fork me on GitHub]';
     #heading_identifier = 'h1'
@@ -8,6 +8,7 @@ class CommonPage{
 
     goToHomePage(){
         console.log(`Navigating to ${this.#url}`);
+        cy.visit(this.#url);
     }
     setExpectedTitle(value){
         this.title = value;
@@ -33,4 +34,4 @@ class CommonPage{
 
 
 }
-module.exports = CommonPage;
+ 
